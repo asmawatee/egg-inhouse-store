@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Select All"
+        android:id="@+id/select_all"/>
+
+    <item
+        android:title="Select None"
+        android:id="@+id/select_none"/>
+
+
+</menu>

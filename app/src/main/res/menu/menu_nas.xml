@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/b1home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/b2data"
+        android:icon="@drawable/ic_layers"
+        android:title="General App" />
+
+    <item
+        android:id="@+id/b3app"
+        android:icon="@mipmap/ic_our_app"
+        android:title="Our Applications" />
+
+    <item
+        android:id="@+id/b4user"
+        android:icon="@mipmap/ic_groupapp"
+        android:title="User Manager" />
+
+    <!--<item-->
+        <!--android:id="@+id/b3groupapp"-->
+        <!--android:icon="@mipmap/ic_group_app"-->
+        <!--android:title="Group App" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/b4managegroup"-->
+        <!--android:icon="@drawable/ic_assignment"-->
+        <!--android:title="Manage Group" />-->
+
+
+</menu>

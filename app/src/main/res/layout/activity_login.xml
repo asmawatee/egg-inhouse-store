@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9B92F"
+    tools:context="com.example.user.appstore.activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:background="@drawable/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="- LOGIN -"
+        android:textSize="16dp"
+        android:id="@+id/textView2" />
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_google"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"/>
+
+    <Button
+        android:id="@+id/buttonLoginFacebook"
+        android:layout_width="210dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/sign_in_google"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Login With Facebook"
+        android:textColor="#FFFFFF"
+        android:background="#005CE6"/>
+
+
+
+
+</RelativeLayout>

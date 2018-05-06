@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppStore</string>
+    <string name="title_activity_index">indexActivity</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+
+    <string name="facebook_app_id">325882331265211</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.user.appstore">
+
+    <uses-permission android:name="android.permission.INTERNT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".activity.ApplicationActivity" />
+        <activity android:name=".activity.InvitePermission" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.NewAppActivity" />
+        <activity android:name=".activity.ProfileActivity" />
+        <activity android:name=".activity.EditAppActivity" />
+        <activity android:name=".activity.MainActivity">
+
+        </activity>
+        <activity android:name=".activity.EggInHouseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

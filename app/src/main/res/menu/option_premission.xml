@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/public1"
+        android:icon="@mipmap/ic_public"
+        android:title="Public" />
+
+    <item
+        android:id="@+id/onlyme"
+        android:icon="@mipmap/ic_onlyme"
+        android:title="Only Me" />
+
+</menu>

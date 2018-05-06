@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context="com.example.user.appstore.fragment.ListAppFragment">
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/searching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bar_drawable"
+        android:drawableLeft="@mipmap/ic_search1"
+        android:drawableStart="@mipmap/ic_search1"
+        android:hint="Search" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerViewapp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/list_index"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:elevation="4dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:srcCompat="@android:drawable/sym_def_app_icon"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/images"
+            android:layout_alignTop="@+id/textname"
+            android:layout_alignParentStart="true" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="19dp"
+                android:layout_marginLeft="40dp"
+                android:text="Text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/textversion" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/textdownload" />
+
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
